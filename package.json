@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Mi primer proyecto con TypeScript y Sass.",
   "main": "index.js",
-  "scripts": {
-    "build:ts": "tsc",
-    "build:sass": "sass src/styles/main.scss dist/styles.css",
-    "copy-assets": "cp src/index.html dist/ && cp -r src/assets dist/",
-    "build": "npm run build:ts && npm run build:sass && npm run copy-assets",
-    "start": "live-server dist"
-  },
+"scripts": {
+  "build:ts": "tsc",
+  "build:sass": "sass src/styles/main.scss dist/styles.css",
+  "copy-assets": "cp src/index.html dist/ && cp -r src/assets dist/",
+  "fix-imports": "node fix-imports.js",
+  "build": "npm run build:ts && npm run fix-imports && npm run build:sass && npm run copy-assets",
+  "start": "live-server dist"
+}
+,
   "keywords": [],
   "author": "Tu Nombre",
   "license": "ISC",
