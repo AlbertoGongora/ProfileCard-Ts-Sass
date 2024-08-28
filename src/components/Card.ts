@@ -1,9 +1,9 @@
-import { createHeader } from './Header.ts';
-import { createAboutSection } from './About.ts';
-import { createExperienceSection } from './Experience.ts';
-import { createContactSection } from './Contact.ts';
-import { createButtons } from './Buttons.ts';
-import { selectElement } from '../utils/domUtils.ts';
+import { createHeader } from './Header';
+import { createAboutSection } from './About';
+import { createExperienceSection } from './Experience';
+import { createContactSection } from './Contact';
+import { createButtons } from './Buttons';
+import { selectElement } from '../utils/domUtils';
 
 export function initializeCard(): void {
   const container = selectElement<HTMLElement>('body');
