@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $text-color;
+  font-family: $font-primary;
+  background-color: $background-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.25rem;
+  overflow: hidden;
+}

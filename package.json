@@ -1,0 +1,30 @@
+{
+  "name": "typescriptsass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "build:ts": "tsc",
+  "build:sass": "sass src/styles/main.scss dist/styles.css",
+  "copy-assets": "cp src/index.html dist/ && cp -r src/assets dist/",
+  "build": "npm run build:ts && npm run build:sass && npm run copy-assets",
+  "start": "live-server dist"
+}
+
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "live-server": "^1.2.2",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
