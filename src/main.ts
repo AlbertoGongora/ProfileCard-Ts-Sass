@@ -1,4 +1,4 @@
-import { initializeCard } from './components/Card';
+import { initializeCard } from './components/Card.ts';
 
 document.addEventListener("DOMContentLoaded", () => {
   initializeCard();
