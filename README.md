@@ -26,11 +26,11 @@ Este proyecto es una tarjeta de perfil interactiva, diseñada y desarrollada com
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+    git clone git@github.com:AlbertoGongora/ProfileCard-Ts-Sass.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
-    cd nombre-del-repositorio
+    cd ProfileCard-Ts-Sass
     ```
 3. Instala las dependencias:
     ```bash
